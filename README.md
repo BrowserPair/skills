@@ -2,7 +2,7 @@
 
 Reusable workflow knowledge for agents working through [BrowserPair](https://browserpair.com/). These Skills explain how to complete and verify a task in the user's connected Chrome browser.
 
-**Skills are instructions, never permission grants.** Account mode, browser scope, task intent, immutable confirmations and Chrome/managed policy govern execution. Both modes work on every website and offer every browser tool. Standard asks only before payments and purchases, sign-in, account or security changes, deleting, sending or publishing, file uploads or downloads, and passwords or secrets. Developer has no mode confirmations. Task-requested confirmations and Chrome site permissions still apply; Chrome may ask you to grant site access.
+**Skills are instructions, never permission grants.** Account mode, browser scope, task intent, immutable confirmations and Chrome/managed policy govern execution. Both modes work on every website and offer every browser tool. Standard asks only before payments and purchases, sign-in, account or security changes, deleting, sending or publishing, and passwords or secrets. Uploads and downloads are enabled by default in both modes and may be disabled separately by the account owner. Developer has no mode confirmations. Task-requested confirmations and Chrome site permissions still apply; Chrome may ask you to grant site access.
 
 ## Available Skills
 
@@ -23,7 +23,7 @@ These Markdown files use a familiar SKILL.md layout. Automatic installation depe
 
 ## Use inside BrowserPair
 
-In the app, open **Automations → Skills** and create a private Skill using the workflow instructions. Review domain matching and required capabilities, then enable or pin a version. See the [product guide](https://docs.browserpair.com/skills-guide).
+In the app, open **Skills** and create a private Skill using the workflow instructions. Review applicability, required inputs and verification steps, then save or pin a version. A Skill is used only when explicitly selected by the user or an agent; normal tasks do not automatically match Skills. See the [product guide](https://docs.browserpair.com/skills-guide).
 
 The files in this repository are readable source instructions, not a claim of compatibility with an undocumented JSON import format.
 
