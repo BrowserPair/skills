@@ -15,11 +15,11 @@ Reusable workflow knowledge for agents working through [BrowserPair](https://bro
 ## Use with an external agent
 
 1. Open the relevant SKILL.md and provide its instructions to your agent.
-2. Connect that agent to [BrowserPair MCP](https://docs.browserpair.com/remote-mcp).
+2. In ChatGPT, connect the [published BrowserPair plugin](https://chatgpt.com/plugins/plugin_asdk_app_6ac5859a310c8191b959b4cfd69b2668) and authorize your Chrome browser. For Claude or other supported agents, follow [BrowserPair MCP](https://docs.browserpair.com/remote-mcp).
 3. State the goal and initial domains, select the intended browser and review the account mode. Capability hints are not permission switches.
 4. Have the agent follow the workflow and verify success from fresh page evidence.
 
-These Markdown files use a familiar SKILL.md layout. Automatic installation depends on your agent host; no universal install command is assumed.
+These Markdown files use a familiar SKILL.md layout. The published ChatGPT plugin provides browser access, not automatic installation of these workflow files. Automatic Skill installation depends on your agent host; no universal install command is assumed.
 
 ## Use inside BrowserPair
 
